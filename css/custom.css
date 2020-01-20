@@ -1,0 +1,147 @@
+.view,html
+{height:100%}
+.company{
+		
+	font-family: 'Leckerli One','Arizonia';
+	font-size: 30px;
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1),4px 4px 8px rgba(0,0,0,0.2);
+}
+.imgsize{
+	image-rendering: auto;
+}
+.logo{
+	width: 127.04px;
+	height:72.32px;
+}
+.iconscss{
+	font-size:50px;
+	color:black;
+	font-weight: bold;
+}
+.profileclass{	
+	font-family: Prestige Elite Std;
+	font-size: 20px;
+}
+.log{
+	background-image: url(../img/background.jpg);
+	  background-repeat: no-repeat;
+  background-size: 100%;
+	height: 100%;
+}
+.reg{
+	background-image: url(../img/backgroundreg.jpg);
+	  background-repeat: no-repeat;
+  background-size: 100%;
+	height: 100%;
+}
+.card { background-color: rgba(255, 255, 255, 0.6);
+	text-align: center;
+	font-family: Prestige Elite Std;
+color: #000000; }
+
+.button{
+	background-color:  rgba(0, 26, 255, 0.6);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  width: 85%;
+  display: inline-block;
+}
+@media(max-width:994px){
+	.full-page-intro{height:1000px}
+	.log{
+		background-image: url(../img/background.jpg);
+		  background-repeat: no-repeat;
+	  background-size: auto;
+		height: 100%;
+	}
+	.reg{
+		background-image: url(../img/backgroundreg.jpg);
+		  background-repeat: no-repeat;
+	  background-size: auto;
+		height: 100%;
+	}
+	}.carousel{height:100%}
+	.carousel .carousel-inner,
+	.carousel .carousel-inner .active,
+	.carousel .carousel-inner .carousel-item
+	{height:100%	
+}
+@media (max-width:740px)
+{.full-page-intro{height:1000px}
+.log{
+	background-image: url(../img/background.jpg);
+	  background-repeat: no-repeat;
+  background-size: auto;
+	height: 100%;
+}
+.reg{
+	background-image: url(../img/backgroundreg.jpg);
+	  background-repeat: no-repeat;
+  background-size: auto;
+	height: 100%;
+}
+}.carousel{height:100%}
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item
+{height:100%}
+
+@media 
+(max-width:776px)
+{   .carousel{height:100%}
+
+.log{
+	background-image: url(../img/background.jpg);
+	  background-repeat: no-repeat;
+  background-size: auto;
+	height: 100%;
+}
+.reg{
+	background-image: url(../img/backgroundreg.jpg);
+	  background-repeat: no-repeat;
+  background-size: auto;
+	height: 100%;
+}
+}
+    .navbar{background-color:rgba(0,0,0,.3)}
+    .page-footer,
+    .top-nav-collapse{background-color:#1C2331}
+    
+@media only screen and (max-width:768px)
+{.navbar{background-color:#1C2331}
+.log{
+	background-image: url(../img/background.jpg);
+	  background-repeat: no-repeat;
+  background-size: auto;
+	height: 100%;
+}}
+ html,
+ body,
+ header,
+ .view {
+     height: 100%;
+ }
+
+.top-nav-collapse{
+    background: linear-gradient(to right,  #181717  -10%,  #000000  70%) !important;
+
+}
+.footcolor{
+  background: linear-gradient(to right,  #181717  -10%,  #000000  70%) !important;
+   
+}
+.body-mr{
+margin-left: 20%;
+}
+
+label {
+	color: #999; 
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	transition: all 0.2s ease;
+}
